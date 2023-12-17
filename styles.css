@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #b6b2e9;
+}
+
+#video {
+    object-fit: contain;
+}
+
+#newyear {
+    text-align: center;
+    margin: 3%;
+    font-size: 300%;
+    color: blue;
+}
+
+#me {
+    text-align: center;
+    margin: 3%;
+    font-size: 400%;
+
+    background: linear-gradient(90deg, #e933ff, #334dff, #e933ff, #1607F2, #e933ff);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textflow 5s linear infinite;
+}
+
+@keyframes textflow {
+  from {background-position: 0% center}         
+  to {background-position: 200% center}
+}
+
+#div2 {
+    height: 15%;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #000;
+    font-size: 200%;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 15px;
+}
+
+#p2 {
+    background-color: #000;
+    text-align: center;
+}
+
+#a {
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+}
+
+#a:hover {
+    background-color: #000;
+    text-decoration: none;
+    color: gray;
+}
